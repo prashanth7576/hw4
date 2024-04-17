@@ -1,3 +1,11 @@
+:root{
+    --color: rgb(236, 237, 220);
+    --primarycolor:rgb(52, 235, 210, 0.6);
+    --secondarycolor:rgba(15, 69, 113, 0.9);
+    --textcolor:black;
+    --navcolor: rgb(250, 163, 163);  
+}
+
 .App {
 	text-align: center;
 }
@@ -5,6 +13,43 @@
 body {
 	font-size: 22px;
 	background-color: lightcyan;
+}
+
+nav{
+    text-align: center;
+    background-color: var(--secondarycolor);
+    padding: 3px;
+    width: 118%;
+    margin-left: -119px;
+    
+}
+
+@media(max-width:960px){
+
+	nav{
+		text-align: center;
+		background-color: var(--secondarycolor);
+		padding: 3px;
+		width: 148%;
+		margin-left: -125px;
+		
+	}
+
+	nav p{
+		font-size: 28px;
+		font-weight: 600;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		color: var(--navcolor);
+		margin-left: 35px;
+	}
+}
+
+nav p{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--navcolor);
+    margin-left: 35px;
 }
 
 .main {

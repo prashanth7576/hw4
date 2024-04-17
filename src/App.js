@@ -36,8 +36,20 @@ function App() {
   };
   return (
 
+    
+
     <div className='container'>
-      
+
+<header>
+
+<nav>
+
+    <p> React Weather App </p>
+
+</nav>
+
+</header>
+
       <div className='main'>
     <input
       type='text'
